@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "module": "esnext",
+      "target": "es2017",
+      "strict": true,
+      "esModuleInterop": true,
+      "sourceMap": true,
+      "baseUrl": ".",
+      "paths": {
+        "svelte/*": ["./node_modules/svelte/internal"]
+      }
+    },
+    "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.svelte"],
+    "exclude": ["node_modules/*", "__sapper__/*", "public/*"]
+  }
+  

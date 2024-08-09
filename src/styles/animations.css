@@ -1,0 +1,12 @@
+.blue-pulse {
+    animation: pulseAnimation 1s infinite alternate;
+}
+
+@keyframes pulseAnimation {
+    from {
+        background-color: transparent;
+    }
+    to {
+        background-color: rgba(24, 90, 219, .5); /* Adjust the color and opacity as needed */
+    }
+}
